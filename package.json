@@ -4,8 +4,7 @@
   "description": "Magic towns in Mexico",
   "main": "index.js",
   "scripts": {
-    "start": "node serveApp.js",
-    "heroku-postbuild": "webpack -p",
+    "start": "node serveApp.js"
   },
   "repository": {
     "type": "git",
