@@ -9,6 +9,6 @@ app.get('/', (req,res) =>{
 })
 
 // Escucha de Puertos
-app.listen( 8080, () => {
+app.listen( process.env.PORT || 8080, () => {
   console.log(`Servidor corriendo en puerto 8080`);
 });
