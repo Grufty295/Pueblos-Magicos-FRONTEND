@@ -1,0 +1,35 @@
+@import "@styles/base/colors.scss";
+
+.comments {
+  padding: 32px;
+  &__title {
+    font-size: 2.8rem;
+    font-weight: normal;
+  }
+  &__cta {
+    font-size: 2.8rem;
+    letter-spacing: 0.25px;
+    font-weight: normal;
+    color: $primary-brand-600;
+  }
+}
+.reviews{
+  margin-bottom: 16px;
+}
+
+div>.section-title{
+  margin-left: 0px !important;
+  margin-bottom: 24px;
+  color: #131c25;
+}
+
+
+@media (max-width: 320px){
+  .input-review{
+    margin: 16px;
+  }
+  .comments{
+    padding: 16px;
+  }
+}
+
