@@ -4,7 +4,7 @@
   "description": "Magic towns in Mexico",
   "main": "index.js",
   "scripts": {
-    "start": "node serveApp.js",
+    "start": "node serveApp.js"
   },
   "repository": {
     "type": "git",
